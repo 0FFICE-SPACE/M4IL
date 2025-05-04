@@ -1,8 +1,13 @@
 /
+ _______    || TO: Thomas-m-Butterworthgithub.com
+|==  { }|   || FROM: 0FFICE-SPACEgithub.com
+|  ==== |   || CC: NONE
+'-------'   || BCC: NONE
+______________________________________________________________________
 
 Dear Thom,
 
-Hope you are well, I've made us an email inbox on the github in order to 
+Hope you are well, Ive made us an email inbox on the github in order to 
 
 send messages with little songs attached.
 
@@ -19,7 +24,7 @@ define :d_chirrup do |n, t|
   play n, release: blip*4
   
 end
-use_bpm 160
+use_bpm 80
 
 live_loop :may_this_find_you_well do
   d_chirrup [:E5,:D5,:C5,:A5].tick, 1.0
